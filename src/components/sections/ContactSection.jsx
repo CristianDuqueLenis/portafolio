@@ -2,9 +2,8 @@ import SectionTitle from '../ui/SectionTitle.jsx'
 
 function ContactSection({ contactLinks }) {
   return (
-    <section className="section-panel contact-section" data-reveal>
+    <section id="contacto" className="section-panel contact-section" data-reveal>
       <SectionTitle
-        id="contacto"
         label="contacto"
         title="Conversemos"
       />

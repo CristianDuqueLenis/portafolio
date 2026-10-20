@@ -2,9 +2,8 @@ import SectionTitle from '../ui/SectionTitle.jsx'
 
 function PersonalSection({ profile }) {
   return (
-    <section className="section-panel about-section" data-reveal>
+    <section id="sobre-mi" className="section-panel about-section" data-reveal>
       <SectionTitle
-        id="sobre-mi"
         label="perfil"
         title="Contexto profesional"
       />

@@ -69,9 +69,14 @@
   transform: translateX(2px);
 }
 
-.intro-nav-link:hover::before {
+.intro-nav-link:hover::before,
+.intro-nav-link.is-active::before {
   width: 2rem;
   background: var(--accent);
+}
+
+.intro-nav-link.is-active {
+  color: var(--accent-strong);
 }
 
 .intro-nav-link:focus-visible,

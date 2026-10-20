@@ -2,9 +2,8 @@ import SectionTitle from '../ui/SectionTitle.jsx'
 
 function InterestsSection({ interests }) {
   return (
-    <section className="section-panel interests-section" data-reveal>
+    <section id="intereses" className="section-panel interests-section" data-reveal>
       <SectionTitle
-        id="intereses"
         label="intereses"
         title="Lineas de especializacion"
       />

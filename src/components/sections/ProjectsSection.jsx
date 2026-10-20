@@ -9,9 +9,8 @@ function ProjectsSection({ projects, filter, filters, onFilterChange }) {
         : 'col-12 col-md-6 col-xl-4'
 
   return (
-    <section className="section-panel projects-section" data-reveal>
+    <section id="proyectos" className="section-panel projects-section" data-reveal>
       <SectionTitle
-        id="proyectos"
         label="proyectos"
         title="Casos de trabajo"
       />

@@ -2,9 +2,8 @@ import SectionTitle from '../ui/SectionTitle.jsx'
 
 function SkillsSection({ techGroups, techLogos }) {
   return (
-    <section className="section-panel technologies-section" data-reveal>
+    <section id="tecnologias" className="section-panel technologies-section" data-reveal>
       <SectionTitle
-        id="tecnologias"
         label="stack"
         title="Mapa tecnológico"
       />

@@ -14,6 +14,7 @@ function SidebarIntro({
   profile,
   navItems,
   contactLinks,
+  activeSectionId,
   mobileNavOpen,
   onToggleMobileNav,
   onCloseMobileNav
@@ -50,7 +51,12 @@ function SidebarIntro({
           <ul className="list-unstyled d-flex d-lg-block flex-wrap gap-2 gap-lg-0 mb-4">
             {navItems.map((item) => (
               <li key={item.id}>
-                <a href={`#${item.id}`} onClick={onCloseMobileNav} className="intro-nav-link">
+                <a
+                  href={`#${item.id}`}
+                  onClick={onCloseMobileNav}
+                  className={`intro-nav-link${activeSectionId === item.id ? ' is-active' : ''}`}
+                  aria-current={activeSectionId === item.id ? 'location' : undefined}
+                >
                   {item.text}
                 </a>
               </li>

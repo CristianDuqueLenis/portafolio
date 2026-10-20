@@ -19,10 +19,14 @@ import {
   techLogos
 } from './data/portfolioData.js'
 import useScrollReveal from './hooks/useScrollReveal.js'
+import useSectionHash from './hooks/useSectionHash.js'
 
 function App() {
   const [projectFilter, setProjectFilter] = useState('all')
   const [mobileNavOpen, setMobileNavOpen] = useState(false)
+
+  const sectionIds = useMemo(() => navItems.map((item) => item.id), [])
+  const activeSectionId = useSectionHash(sectionIds)
 
   useScrollReveal()
 
@@ -40,6 +44,7 @@ function App() {
               profile={profile}
               navItems={navItems}
               contactLinks={contactLinks}
+              activeSectionId={activeSectionId}
               mobileNavOpen={mobileNavOpen}
               onToggleMobileNav={() => setMobileNavOpen((open) => !open)}
               onCloseMobileNav={() => setMobileNavOpen(false)}
