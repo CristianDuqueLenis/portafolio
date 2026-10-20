@@ -1,0 +1,16 @@
+@media (max-width: 991.98px) {
+  .section-panel {
+    padding: 1.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .sidebar-shell {
+    position: sticky;
+    top: 2rem;
+  }
+
+  .intro-nav {
+    display: block;
+  }
+}

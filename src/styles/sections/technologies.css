@@ -1,0 +1,39 @@
+.tech-map {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+}
+
+.tech-group-label {
+  margin: 0 0 0.55rem;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.tech-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.tech-logo-item {
+  min-width: 76px;
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  background: var(--bg-soft);
+  padding: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+}
+
+.tech-logo-img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}

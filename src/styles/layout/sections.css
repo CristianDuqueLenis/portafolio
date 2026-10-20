@@ -1,0 +1,12 @@
+.section-panel {
+  background: var(--bg-panel);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-panel);
+  backdrop-filter: blur(8px);
+}
+
+.section-heading {
+  scroll-margin-top: 1rem;
+}

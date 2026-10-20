@@ -1,0 +1,12 @@
+.project-card {
+  transition: transform var(--transition-fast), border-color var(--transition-fast);
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(103, 232, 249, 0.45) !important;
+}
+
+.project-status {
+  font-size: 0.72rem;
+}

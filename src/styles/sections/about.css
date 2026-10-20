@@ -1,0 +1,16 @@
+.photo-placeholder {
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-sm);
+  min-height: 220px;
+  background: rgba(148, 163, 184, 0.05);
+}
+
+.profile-photo-img {
+  width: 100%;
+  min-height: 220px;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-strong);
+  background: rgba(148, 163, 184, 0.08);
+}

@@ -1,0 +1,16 @@
+.btn-main,
+.btn-secondary-soft {
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.btn-main:hover,
+.btn-secondary-soft:hover {
+  transform: translateY(-2px);
+}
+
+.btn-main:focus-visible,
+.btn-secondary-soft:focus-visible,
+.btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}

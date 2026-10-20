@@ -1,0 +1,14 @@
+.badge-soft {
+  font-size: 0.75rem;
+}
+
+.chip {
+  border: 1px solid var(--border-strong);
+  background: var(--bg-soft);
+  color: #cbd5e1;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.7rem;
+  display: inline-flex;
+  align-items: center;
+}
